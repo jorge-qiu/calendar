@@ -1,0 +1,75 @@
+{
+  "records": {
+    "2023-03-15": {
+      "date": "2023-03-15",
+      "title": "春游",
+      "description": "和朋友们一起去公园春游，拍了很多照片。",
+      "images": [
+        {
+          "id": "1",
+          "url": "https://picsum.photos/id/10/800/600",
+          "alt": "春游照片1",
+          "order": 0
+        },
+        {
+          "id": "2",
+          "url": "https://picsum.photos/id/11/800/600",
+          "alt": "春游照片2",
+          "order": 1
+        },
+        {
+          "id": "3",
+          "url": "https://picsum.photos/id/12/800/600",
+          "alt": "春游照片3",
+          "order": 2
+        }
+      ],
+      "marked": true,
+      "markType": "event"
+    },
+    "2023-03-20": {
+      "date": "2023-03-20",
+      "title": "生日派对",
+      "description": "朋友的生日派对，很开心！",
+      "images": [
+        {
+          "id": "4",
+          "url": "https://picsum.photos/id/20/800/600",
+          "alt": "生日派对照片1",
+          "order": 0
+        },
+        {
+          "id": "5",
+          "url": "https://picsum.photos/id/21/800/600",
+          "alt": "生日派对照片2",
+          "order": 1
+        }
+      ],
+      "marked": true,
+      "markType": "birthday"
+    },
+    "2023-04-05": {
+      "date": "2023-04-05",
+      "title": "清明节",
+      "description": "清明节假期，回家扫墓。",
+      "images": [
+        {
+          "id": "6",
+          "url": "https://picsum.photos/id/30/800/600",
+          "alt": "清明节照片",
+          "order": 0
+        }
+      ],
+      "marked": true,
+      "markType": "holiday"
+    },
+    "2023-04-15": {
+      "date": "2023-04-15",
+      "title": "项目截止日期",
+      "description": "重要项目的截止日期，需要提前准备。",
+      "images": [],
+      "marked": true,
+      "markType": "important"
+    }
+  }
+} 

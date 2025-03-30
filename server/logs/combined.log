@@ -1,0 +1,56 @@
+2025-03-18 09:47:33 error: 无法连接到MongoDB:
+2025-03-29 20:22:27 info: 服务器运行在端口 5000
+2025-03-29 20:22:27 info: API文档可访问: http://localhost:5000/api-docs
+2025-03-30 09:00:50 info: 服务器运行在端口 5000
+2025-03-30 09:00:50 info: API文档可访问: http://localhost:5000/api-docs
+2025-03-30 09:02:47 error: 未捕获的异常: listen EADDRINUSE: address already in use :::5000
+2025-03-30 09:07:09 info: 服务器运行在端口 5000
+2025-03-30 09:07:09 info: API文档可访问: http://localhost:5000/api-docs
+2025-03-30 09:07:31 error: Error: 未提供访问令牌，请先登录
+Error: 未提供访问令牌，请先登录
+    at exports.protect (D:\项目\project\calendar\cale\server\src\middleware\auth.js:17:19)
+    at Layer.handle [as handle_request] (D:\项目\project\calendar\cale\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\项目\project\calendar\cale\server\node_modules\express\lib\router\index.js:328:13)
+    at D:\项目\project\calendar\cale\server\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\项目\project\calendar\cale\server\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\项目\project\calendar\cale\server\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\项目\project\calendar\cale\server\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\项目\project\calendar\cale\server\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\项目\project\calendar\cale\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\项目\project\calendar\cale\server\node_modules\express\lib\router\index.js:328:13)
+2025-03-30 09:07:31 error: Error: 未提供访问令牌，请先登录
+Error: 未提供访问令牌，请先登录
+    at exports.protect (D:\项目\project\calendar\cale\server\src\middleware\auth.js:17:19)
+    at Layer.handle [as handle_request] (D:\项目\project\calendar\cale\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\项目\project\calendar\cale\server\node_modules\express\lib\router\index.js:328:13)
+    at D:\项目\project\calendar\cale\server\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\项目\project\calendar\cale\server\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\项目\project\calendar\cale\server\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\项目\project\calendar\cale\server\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\项目\project\calendar\cale\server\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\项目\project\calendar\cale\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\项目\project\calendar\cale\server\node_modules\express\lib\router\index.js:328:13)
+2025-03-30 09:11:53 error: Error: 未提供访问令牌，请先登录
+Error: 未提供访问令牌，请先登录
+    at exports.protect (D:\项目\project\calendar\cale\server\src\middleware\auth.js:17:19)
+    at Layer.handle [as handle_request] (D:\项目\project\calendar\cale\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\项目\project\calendar\cale\server\node_modules\express\lib\router\index.js:328:13)
+    at D:\项目\project\calendar\cale\server\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\项目\project\calendar\cale\server\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\项目\project\calendar\cale\server\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\项目\project\calendar\cale\server\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\项目\project\calendar\cale\server\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\项目\project\calendar\cale\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\项目\project\calendar\cale\server\node_modules\express\lib\router\index.js:328:13)
+2025-03-30 09:11:53 error: Error: 未提供访问令牌，请先登录
+Error: 未提供访问令牌，请先登录
+    at exports.protect (D:\项目\project\calendar\cale\server\src\middleware\auth.js:17:19)
+    at Layer.handle [as handle_request] (D:\项目\project\calendar\cale\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\项目\project\calendar\cale\server\node_modules\express\lib\router\index.js:328:13)
+    at D:\项目\project\calendar\cale\server\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\项目\project\calendar\cale\server\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\项目\project\calendar\cale\server\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\项目\project\calendar\cale\server\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\项目\project\calendar\cale\server\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\项目\project\calendar\cale\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\项目\project\calendar\cale\server\node_modules\express\lib\router\index.js:328:13)

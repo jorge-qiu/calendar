@@ -1,0 +1,116 @@
+.dayCell {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  min-height: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 5px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  
+  &:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+  }
+  
+  &.otherMonth {
+    color: #aaa;
+    
+    .imageIndicator {
+      opacity: 0.5;
+    }
+  }
+  
+  &.selected {
+    background-color: rgba(66, 133, 244, 0.2);
+    font-weight: bold;
+    
+    &:hover {
+      background-color: rgba(66, 133, 244, 0.3);
+    }
+  }
+  
+  &.today {
+    .dateNumber {
+      background-color: #4285f4;
+      color: white;
+      border-radius: 50%;
+      width: 24px;
+      height: 24px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+  
+  &.hasImages {
+    .imageIndicator {
+      display: flex;
+    }
+  }
+}
+
+.dateNumber {
+  font-size: 14px;
+  margin-bottom: 4px;
+}
+
+.imageIndicator {
+  display: none;
+  position: absolute;
+  bottom: 4px;
+  right: 4px;
+  font-size: 12px;
+  color: #4285f4;
+}
+
+.markIndicator {
+  position: absolute;
+  top: 4px;
+  right: 4px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: #f44336;
+}
+
+// 标记类型样式
+.mark-important .markIndicator {
+  background-color: #f44336;
+}
+
+.mark-event .markIndicator {
+  background-color: #4caf50;
+}
+
+.mark-holiday .markIndicator {
+  background-color: #ff9800;
+}
+
+.mark-birthday .markIndicator {
+  background-color: #e91e63;
+}
+
+// 悬停效果
+.hover-zoom {
+  &:hover {
+    transform: scale(1.05);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+  }
+}
+
+.hover-fade {
+  &:hover {
+    opacity: 0.8;
+  }
+}
+
+.hover-slide {
+  &:hover {
+    transform: translateY(-2px);
+  }
+} 
